@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 if(isset($_POST["submit"]))
 {
 
@@ -16,7 +14,7 @@ if(isset($_POST["submit"]))
     $login = new LoginContr($email, $pwd);
 
     // Running error handlers and user login
-    $login->loginUser($email, $pwd);
+    $login->loginUser();
 
     // Going to back to front page
     header("location: ../index.php?error=none");

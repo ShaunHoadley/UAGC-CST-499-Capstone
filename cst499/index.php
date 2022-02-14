@@ -1,5 +1,5 @@
 <?php
-   session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
     <div style='margin-bottom:60px' class="container text-center">
         <?php 
             if(isset($_SESSION['username'])) {
-                echo "<h1>Welcome to the Home Page, ".$_SESSION['username']."</h1>";    
+                echo "<h1>Welcome back to the Home Page, ".$_SESSION['username']."</h1>";    
             }else{
                 echo "<h1>Welcome to the Home Page</h1>";
                 echo "<h3>Please Login or Register </h3>";

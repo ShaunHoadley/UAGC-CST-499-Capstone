@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	//session_start();
 ?>
 
 <!DOCTYPE html>
@@ -31,11 +31,11 @@
                 </div>
                 <div class="form-group col-md-6" id="no-padding-right">
                     <label for="pwd">Password</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Password" autocomplete="off" name="password" required>
+                    <input type="password" class="form-control" id="pwd" placeholder="Password" autocomplete="off" name="pwd" required>
                 </div>
                 <div class="form-group col-md-6" id="no-padding-right">
                     <label for="pwdrepeat">Repeat Password</label>
-                    <input type="password" class="form-control" id="pwdrepeat" placeholder="Password" autocomplete="off" name="password" required>
+                    <input type="password" class="form-control" id="pwdrepeat" placeholder="Password" autocomplete="off" name="pwdrepeat" required>
                 </div>
             </div>
             <div class="form-row">
